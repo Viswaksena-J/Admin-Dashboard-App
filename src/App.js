@@ -8,7 +8,7 @@ import {Ecommerce,Orders,Employees,Calender,Stacked,Customers,Kanban,Area,Bar,Pi
 import "./App.css"
 
 const App = () => {
-  const activeMenu = false;
+  const activeMenu = true;
   return (
     <div>
       <BrowserRouter>
