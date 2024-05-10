@@ -22,30 +22,6 @@ const Employees = () => {
         allowSorting={true}
         toolbar={["Search"]}
         width="auto"
-        // allowFiltering={true}
-        // allowExcelExport={true}
-        // allowPdfExport={true}
-        // allowResizing={true}
-        // allowTextWrap={true}
-        // allowReordering={true}
-        // contextMenuItems={contextMenuItems}
-        // allowEditing={true}
-        // editSettings={{
-        //   allowEditing: true,
-        //   allowAdding: true,
-        //   allowDeleting: true,
-        // }}
-        // toolbar={[
-        //   "Add",
-        //   "Edit",
-        //   "Delete",
-        //   "Update",
-        //   "Cancel",
-        //   "Search",
-        //   "ExcelExport",
-        //   "PdfExport",
-        // ]}
-        // height="400"
       >
         <ColumnsDirective>
           {employeesGrid.map((item, index) => (

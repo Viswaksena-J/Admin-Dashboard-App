@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-md/icon": "^5.1.6",
+    "@react-md/theme": "^5.1.6",
+    "@react-md/typography": "^5.1.6",
     "@syncfusion/ej2": "^19.4.48",
     "@syncfusion/ej2-react-calendars": "^19.4.48",
     "@syncfusion/ej2-react-charts": "^19.4.54",

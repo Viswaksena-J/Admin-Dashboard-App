@@ -4,6 +4,8 @@ import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, Fi
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
+import { IoMdPersonAdd } from "react-icons/io";
+import { IoMail } from "react-icons/io5";
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
 import { HiOutlineRefresh } from 'react-icons/hi';
@@ -649,6 +651,26 @@ export const earningData = [
     title: 'Refunds',
     iconColor: 'rgb(0, 194, 146)',
     iconBg: 'rgb(235, 250, 242)',
+    pcColor: 'red-600',
+  },
+  {
+    icon: <IoMdPersonAdd />,
+    amount: '32,441',
+    percentage: '-5%',
+    title: 'New Clients',
+    
+    iconColor: '#faedcd',
+    iconBg: '#d4a373',
+    pcColor: 'red-600',
+  },
+  {
+    icon: <IoMail />,
+    amount: '12,361',
+    percentage: '+14%',
+    title: 'Emails Sent',
+    
+    iconColor: '#e0e1dd',
+    iconBg: '#778da9',
     pcColor: 'red-600',
   },
 ];
