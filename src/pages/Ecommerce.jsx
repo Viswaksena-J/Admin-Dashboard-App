@@ -1,40 +1,40 @@
 import React from "react";
-import { BsCurrencyDollar } from "react-icons/bs";
+// import { BsCurrencyDollar } from "react-icons/bs";
 import { GoPrimitiveDot, GoDotFill } from "react-icons/go";
-import { IoIosMore } from "react-icons/io";
+// import { IoIosMore } from "react-icons/io";
 import { DropDownListComponent } from "@syncfusion/ej2-react-dropdowns";
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from "../components";
 import {
   earningData,
-  medicalproBranding,
+  // medicalproBranding,
   recentTransactions,
-  weeklyStats,
+  // weeklyStats,
   dropdownData,
   SparklineAreaData,
-  ecomPieChartData,
+  // ecomPieChartData,
 } from "../data/dummy";
-import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
-import { employeesData, employeesGrid } from "../data/dummy";
-import {
-  GridComponent,
-  ColumnsDirective,
-  ColumnDirective,
-  Resize,
-  Sort,
-  ContextMenu,
-  Filter,
-  Page,
-  ExcelExport,
-  PdfExport,
-  Edit,
-  Inject,
-  Search,
-  Toolbar,
-} from "@syncfusion/ej2-react-grids";
+// import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
+// import { employeesData, employeesGrid } from "../data/dummy";
+// import {
+//   GridComponent,
+//   ColumnsDirective,
+//   ColumnDirective,
+//   Resize,
+//   Sort,
+//   ContextMenu,
+//   Filter,
+//   Page,
+//   ExcelExport,
+//   PdfExport,
+//   Edit,
+//   Inject,
+//   Search,
+//   Toolbar,
+// } from "@syncfusion/ej2-react-grids";
 import { useStateContext } from "../contexts/ContextProvider";
-import product9 from "../data/product9.jpg";
-import { Header } from "../components";
+// import product9 from "../data/product9.jpg";
+// import { Header } from "../components";
 
 const DropDown = ({ currentMode }) => (
   <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
