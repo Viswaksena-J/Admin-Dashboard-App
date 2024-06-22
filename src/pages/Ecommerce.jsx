@@ -124,6 +124,19 @@ const Ecommerce = () => {
               <p className="text-sm text-gray-400 mt-1">{item.title}</p>
             </div>
           ))}
+          <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl">
+            <div className="mt-5">
+              <SparkLine
+                currentColor={currentColor}
+                id="line-sparkline"
+                type="Line"
+                height="80px"
+                width="250px"
+                data={SparklineAreaData}
+                color={currentColor}
+              />
+            </div>
+          </div>
         </div>
       </div>
       {/* <div className="flex gap-10 flex-wrap justify-center"> */}
